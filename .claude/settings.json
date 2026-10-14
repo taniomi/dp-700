@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "mcp__claude_ai_Microsoft_Learn__microsoft_docs_fetch",
+      "mcp__claude_ai_Microsoft_Learn__microsoft_docs_search"
+    ],
+    "ask": [
+      "Bash(git push*)"
+    ]
+  },
+  "worktree": {
+    "bgIsolation": "none"
+  },
+  "outputStyle": "Explanatory",
+  "enabledPlugins": {
+    "bento-slides@bento": true
+  }
+}

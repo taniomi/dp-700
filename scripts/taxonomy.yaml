@@ -1,0 +1,180 @@
+# DP-700 skill taxonomy, sourced from the official study guide (fetched 2026-10-13,
+# "Skills measured as of October 19, 2026"):
+# https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700
+#
+# Domains and subareas MUST stay in the study guide's order: official objective codes
+# like "2.3" are mapped by position. weight_pct is the midpoint of the published range.
+# Keywords are case-insensitive regexes matched against a question's linked doc
+# title(s), then its text. The first match in file order wins, so keep early
+# subareas' keywords specific (e.g. "eventstream" in 2.3 would otherwise also
+# claim "Troubleshoot Eventstream errors" questions that belong in 3.2). Product
+# keywords in domain 2 that also have a 3.2 "resolve X errors" objective carry a
+# ^(?!.*(error|troubleshoot)) guard so error questions fall through to 3.2.
+# Extend these lists as NEEDS REVIEW questions turn up -- this file is the thing
+# to edit, not the parser.
+
+exam_code: DP-700
+exam_title: "Implementing Data Engineering Solutions Using Microsoft Fabric"
+
+domains:
+  "Implement and manage an analytics solution":
+    weight_pct: 32.5
+    weight_range: [30, 35]
+    subareas:
+      "Configure Microsoft Fabric workspace settings":
+        keywords:
+          - spark (workspace )?setting
+          - starter pool
+          - custom (spark )?pool
+          - high concurrency
+          - fabric environment
+          - workspace setting
+          - domain (workspace )?setting
+          - fabric domain
+          - subdomain
+          - onelake (workspace )?setting
+          - airflow
+      "Implement lifecycle management in Fabric":
+        keywords:
+          - version control
+          - git integration
+          - "\\bgit\\b"
+          - database project
+          - \.sqlproj
+          - deployment pipeline
+          - deployment rule
+          - ci/cd
+          - azure devops
+          - lifecycle management
+      "Configure security and governance":
+        keywords:
+          - workspace role
+          - workspace-level access
+          - item-level access
+          - item permission
+          - row-level
+          - column-level
+          - object-level
+          - folder-level
+          - file-level
+          - dynamic data masking
+          - sensitivity label
+          - endors
+          - audit log
+          - onelake security
+          - onelake data access role
+          - purview
+          - "\\bgrant\\b"
+          - "\\bdeny\\b"
+      "Orchestrate processes":
+        keywords:
+          - orchestrat
+          - schedul
+          - trigger
+          - event-based
+          - pipeline parameter
+          - dynamic (content|expression)
+          - notebookutils
+          - mssparkutils
+          - runmultiple
+          - invoke pipeline
+          - foreach
+          - lookup activity
+          - if condition
+
+  "Ingest and transform data":
+    weight_pct: 32.5
+    weight_range: [30, 35]
+    subareas:
+      "Design and implement loading patterns":
+        keywords:
+          - incremental
+          - full load
+          - watermark
+          - change data capture
+          - "\\bcdc\\b"
+          - upsert
+          - "\\bmerge\\b"
+          - slowly changing
+          - "\\bscd\\b"
+          - dimensional model
+          - star schema
+          - surrogate key
+          - fact table
+          - dimension table
+          - loading pattern
+      "Ingest and transform batch data":
+        keywords:
+          - choose (a|an appropriate) data store
+          - "^(?!.*(error|troubleshoot)).*shortcut"
+          - mirror
+          - copy activity
+          - copy data
+          - copy job
+          - pyspark
+          - dataframe
+          - spark sql
+          - "^(?!.*(error|troubleshoot)).*t-sql"
+          - denormaliz
+          - group by
+          - aggregat
+          - duplicat
+          - missing (data|value)
+          - late-arriving
+          - dropduplicates
+          - fillna
+          - "^(?!.*(error|troubleshoot)).*dataflows? gen ?2"
+      "Ingest and transform streaming data":
+        keywords:
+          - streaming
+          - "^(?!.*(error|troubleshoot)).*eventstream"
+          - structured streaming
+          - readstream
+          - writestream
+          - windowing
+          - tumbling
+          - hopping
+          - sliding
+          - query acceleration
+          - native table
+          - "^(?!.*(error|troubleshoot)).*eventhouse"
+          - kql database
+          - real-time intelligence
+          - update policy
+          - materialized view
+
+  "Monitor and optimize an analytics solution":
+    weight_pct: 32.5
+    weight_range: [30, 35]
+    subareas:
+      "Monitor Fabric items":
+        keywords:
+          - monitor
+          - alert
+          - activator
+          - capacity metric
+          - refresh history
+          - semantic model refresh
+          - run history
+      "Identify and resolve errors":
+        keywords:
+          - error
+          - fail
+          - troubleshoot
+          - resolve
+          - exception
+          - retry
+      "Optimize performance":
+        keywords:
+          - optimi
+          - v-order
+          - z-order
+          - vacuum
+          - partition
+          - small file
+          - compaction
+          - statistics
+          - caching
+          - native execution engine
+          - autotune
+          - performance
