@@ -23,7 +23,7 @@ title: "DP-700 Certification Study Plan"
 
 ### Learning Path 1: Ingest data with Microsoft Fabric
 
-- [ ] [Ingest Data with Dataflows Gen2 in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) (Thu 10/22-Fri 10/23)
+- [x] [Ingest Data with Dataflows Gen2 in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/) (Thu 10/22-Fri 10/23)
 
 ---
 
