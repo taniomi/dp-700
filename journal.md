@@ -17,3 +17,17 @@ Study journal tracking detailed learning from DP-700 Microsoft Learn modules.
   - **On-premises data gateway**: Only path to on-prem sources. Only the last 6 monthly versions are supported → outdated gateway fails the refresh; pipeline settings can't fix it
 
 - **Gaps/To review:**
+
+### Module: Use Apache Spark in Microsoft Fabric
+
+**Session 2 (2026-11-12)**
+
+- **Studied:** https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/
+
+- **Key concepts:**
+  - **Spark runtime**: Bundle of Spark + Delta Lake + Python/Java/Scala/R + OS + default libraries. Set per workspace (default) or per Environment item; applies from the next session
+
+- **Resources:**
+  - Worker nodes (anatomy of a Spark worker node) — https://medium.com/@santosh_joshi_data/study-notes-anatomy-of-a-worker-node-in-spark-fcc461109974
+
+- **Gaps/To review:**

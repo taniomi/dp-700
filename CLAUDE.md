@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-**DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric** certification study repo. Target exam date: Fri Dec 18, 2026.
+**DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric** certification study repo. Target exam date: Wed Dec 30, 2026 (scheduled).
 
 Use the **ms-cert-study** skill for every study workflow here: logging a session (`/journal`, "I studied …"), recording practice tests or the exam result, and refreshing the readiness dashboard.
 
