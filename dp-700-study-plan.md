@@ -8,11 +8,11 @@ title: "DP-700 Certification Study Plan"
 
 - **Duration:** Oct 22 - Dec 30, 2026 (rescheduled Nov 12 from the remaining modules; exam moved from Dec 18 to Dec 30)
 - **Study Schedule:** weekdays only, skipping Dec 25; 2 days per new module, 1 day per module already covered for DP-600
-- **Modules:** 21 unique (15 new, 6 review); 2 done, 19 remaining | **Days needed:** 32 (Nov 13-Dec 29) | **Buffer:** none; take practice tests between modules
+- **Modules:** 21 unique (15 new, 6 review); 3 done, 18 remaining | **Days needed:** 32 (Nov 13-Dec 29) | **Buffer:** none; take practice tests between modules
 - **Target Exam Date:** Wed Dec 30, 2026 (scheduled)
 - **Notes:** kept on paper; `journal.md` is only for occasional resources and gaps
 - **Syllabus:** [Course DP-700T00-A](https://learn.microsoft.com/en-us/training/courses/dp-700t00), 5 learning paths in course order. Modules shared between paths are listed once, under the first path that contains them.
-- **Skills measured:** [study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700), revision effective **Oct 19, 2026** (minor changes to *Configure Microsoft Fabric workspace settings* and *Optimize performance*)
+- **Skills measured:** [study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700), revision effective **Oct 19, 2026** (minor changes to _Configure Microsoft Fabric workspace settings_ and _Optimize performance_)
 
 ## Practice resources
 
@@ -25,15 +25,8 @@ title: "DP-700 Certification Study Plan"
 ### Learning Path 1: Ingest data with Microsoft Fabric
 
 - [x] [Ingest Data with Dataflows Gen2 in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/)
+- [x] [Orchestrate processes and data movement with Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/) (Fri 11/13-Mon 11/16)
 - [x] [Use Apache Spark in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/)
-
----
-
-## Week of Nov 13
-
-### Learning Path 1: Ingest data with Microsoft Fabric
-
-- [ ] [Orchestrate processes and data movement with Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/) (Fri 11/13-Mon 11/16)
 
 ---
 
