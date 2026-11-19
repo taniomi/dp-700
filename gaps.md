@@ -16,10 +16,6 @@ Aggregated list of gaps and areas to review across all studied modules. Updated 
 
 ### Learning Path 2: Implement a Lakehouse with Microsoft Fabric
 
-#### Module: Get started with lakehouses in Microsoft Fabric
-
-- Shortcut caching: GCS/S3/S3-compatible/gateway only (not ADLS), files ≤ 1 GB, retention 1–28 days; enable → less egress (certyiq-0 Q7-8, certyiq-1 Q6) — https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts#caching
-
 #### Module: Work with Delta Lake tables in Microsoft Fabric
 
 - Delta MERGE load pattern: table missing → overwrite (full load); exists → MERGE upsert (incremental) (certyiq-2 Q8) — https://docs.delta.io/latest/delta-update.html#upsert-into-a-table-using-merge
@@ -53,10 +49,6 @@ Aggregated list of gaps and areas to review across all studied modules. Updated 
 ### KQL
 
 - KQL `row_rank_dense(col, restart)`: rank restarts when the predicate is true; `sort by` defaults to desc — https://learn.microsoft.com/en-us/kusto/query/row-rank-dense-function?view=microsoft-fabric
-
-### OneLake and shortcuts
-
-- Shortcut caching: GCS/S3/S3-compatible/gateway only (not ADLS), files ≤ 1 GB, retention 1–28 days; enable → less egress — https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts#caching
 
 ### Loading patterns
 

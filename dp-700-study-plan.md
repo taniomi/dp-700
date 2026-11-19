@@ -8,7 +8,7 @@ title: "DP-700 Certification Study Plan"
 
 - **Duration:** Oct 22 - Dec 30, 2026 (rescheduled Nov 12 from the remaining modules; exam moved from Dec 18 to Dec 30)
 - **Study Schedule:** weekdays only, skipping Dec 25; 2 days per new module, 1 day per module already covered for DP-600
-- **Modules:** 21 unique (15 new, 6 review); 4 done, 17 remaining | **Days needed:** 32 (Nov 13-Dec 29) | **Buffer:** none; take practice tests between modules
+- **Modules:** 21 unique (15 new, 6 review); 6 done, 15 remaining | **Days needed:** 32 (Nov 13-Dec 29) | **Buffer:** none; take practice tests between modules
 - **Target Exam Date:** Wed Dec 30, 2026 (scheduled)
 - **Notes:** kept on paper; `journal.md` is only for occasional resources and gaps
 - **Syllabus:** [Course DP-700T00-A](https://learn.microsoft.com/en-us/training/courses/dp-700t00), 5 learning paths in course order. Modules shared between paths are listed once, under the first path that contains them.
@@ -35,8 +35,8 @@ title: "DP-700 Certification Study Plan"
 
 ### Learning Path 2: Implement a Lakehouse with Microsoft Fabric
 
-- [ ] [Introduction to end-to-end analytics using Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/) (Thu 11/19) — review, covered for DP-600
-- [ ] [Get started with lakehouses in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/) (Fri 11/20) — review, covered for DP-600
+- [x] [Introduction to end-to-end analytics using Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/) (Thu 11/19) — review, covered for DP-600
+- [x] [Get started with lakehouses in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/) (Fri 11/20) — review, covered for DP-600
 
 ---
 
