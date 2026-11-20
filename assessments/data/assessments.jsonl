@@ -3,3 +3,4 @@
 {"assessment_id": "certyiq-1", "date": "2026-11-12", "source_url": "https://certyiq.com/practice-test/microsoft/dp-700", "questions": 10, "correct": 5}
 {"assessment_id": "certyiq-2", "date": "2026-11-17", "source_url": "https://certyiq.com/practice-test/microsoft/dp-700", "questions": 10, "correct": 5}
 {"assessment_id": "certyiq-3", "date": "2026-11-18", "source_url": "https://certyiq.com/practice-test/microsoft/dp-700", "questions": 10, "correct": 4}
+{"assessment_id": "microsoft-1", "date": "2026-11-20", "source_url": "https://learn.microsoft.com/en-gb/credentials/certifications/fabric-data-engineer-associate/practice/results?assessmentId=1704375541&practice-assessment-type=certification&snapshotId=4d27ac9e-beba-45b9-9303-5f9b79d648e7", "questions": 50, "correct": 31}
